@@ -1,5 +1,4 @@
 # Salmonella-Data-Analysis
-COSC 3570 -- Intro to Data Science Project; 
 
 ### COSC 3570 -- Intro to Data Science Group Project
 
