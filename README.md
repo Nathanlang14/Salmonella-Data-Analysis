@@ -1,5 +1,11 @@
 # Salmonella-Data-Analysis
-COSC 3570 -- Intro to Data Science Project; Examining Salmonella Data from CDC
+COSC 3570 -- Intro to Data Science Project; 
+
+### COSC 3570 -- Intro to Data Science Group Project
+
+**Project Title:** Examining Salmonella Data from CDC
+
+**Creators:** Nathan Lang, Shoun Abraham, Quinn Furumo, Xavier Gomez
 
 ## Git Tips
 - use `git clone https://github.com/Nathanlang14/Salmonella-Data-Analysis` to download repository
