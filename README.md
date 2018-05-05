@@ -6,6 +6,28 @@
 
 **Creators:** Nathan Lang, Shoun Abraham, Quinn Furumo, Xavier Gomez
 
+## File Explanation
+**code**
+- Preliminary Analysis --> Viewing our dataset and simply analyzing what we have; some restructuring
+- Population  Analysis --> Seeing how each state compares to its population
+- Choro of Hospitalizations --> Choropleth Map of US showing each states Hospitalizations from 2009-2016
+**modeling**
+- Logistic Regression (no RFE) --> Human chose attributes to train Log Reg model, 10-fold crossvalidation
+- Logistic Regression (RFE)    --> Feature Selection Algorithm used to pick 10 best attributes to train Log Reg model, 10-fold crossvalidation
+**csvs**
+- CDC_Salmonella_Data --> original dataset
+- Salmonella_updated --> cleaned dataset 
+- salm_up  --> same as Salmonella_updated renamed
+- salm_up2 --> drop columns
+           --> added dummy variables for descriptive columns
+           --> changed Hospitalizations from numerical to binary 
+           --> NaN values to 0
+- df_state --> salm_up grouped by State used for choropleth
+- pop --> State populations averaged over 2009-2016
+- Food Groups (excel) --> grouped Illnesses by Food Groups 
+
+
+
 ## Git Tips
 - use `git clone https://github.com/Nathanlang14/Salmonella-Data-Analysis` to download repository
 
