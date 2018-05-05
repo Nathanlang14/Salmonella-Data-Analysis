@@ -1,9 +1,6 @@
 library(ggplot2)
 library(fiftystater)
 
-df_state$Latitude <- NULL
-df_state$Longitude <- NULL
-
 df_state <- read.csv("DataScience/Project/Salmonella-Data-Analysis/csvs/df_state.csv")
 data("fifty_states")
 
